@@ -1,13 +1,11 @@
 def bubble_sort(items):
-    """The function returns a list which is sorted in a manner that places the greatr item on the left"""
-    L = len(items)
-    for x in range (0, L-1):
-        for y in range (0, L-x-1):
-            #When the item on the left side is greater than the one on the right, swap them
-            if items[y]> items[y+1]:
-                items[y],items[y+1]=items[y+1],items[y]
-
-        return items
+    """When the item on the left side is greater than the one on the right, swap them"""
+    array_copy = items.copy() #initialising array_copy which is a copy of item array
+    for i in range(len(array_copy)):
+        for j in range(len(array_copy)-1-i):
+            if array_copy[j] > array_copy[j+1]:
+                array_copy[j], array_copy[j+1] = array_copy[j+1], array_copy[j]
+    return array_copy
 
 def merge_sort(items):
     """The function returns a sorted list"""
