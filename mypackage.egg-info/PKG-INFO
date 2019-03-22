@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: mypackage
+Version: 0.1
+Summary: Ndivhuwo's Python package
+Home-page: https://github.com/muele93/<mypackage>
+Author: Ndivhuwo Tshilande
+Author-email: <nd.tshilande@gmail.com>
+License: MIT
+Description: #mypackage
+        This library was created to show Python recursion funtions
+        
+        # Building the package locally
+        'python setup.py sdist'
+        
+        #Installation from Github
+        'pip install git+https://github.com/Ndivhuwo-Tshilande/example-python-function.git'
+        
+        # Updating package on Github
+        'pip install --upgrade git+https://github.com/Nivhuwo-Tshilande/example-python-function.git'
+        
+Platform: UNKNOWN
